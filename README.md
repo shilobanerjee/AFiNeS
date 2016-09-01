@@ -5,11 +5,7 @@
 * Coarse-grained model of actomyosin networks
 
 ### System Requirements ###
-Minimally, this system requires gcc+11 and boost which you can load on midway via the commands
-```
-    > module load gcc
-    > module load boost
-```
+Minimally, this system requires gcc+11 and boost C++ library
 
 On a Mac, you can install Boost via MacPorts, with the command
 ```
@@ -126,7 +122,7 @@ each list of positions within the file. Thus the structure of actins.txt is:
 
 ### Configurable settings ###
 
-Currently the following options for a simulation can be set upon execution, either from the command line, or within a
+Currently the following options for simulation parameters (provided in the table) can be set upon execution, either from the command line, or within a
 configuration file:
 
 For example, to run a 500 second of simulation of 10 rigid actin filaments, an active motor density of 0.5 and a crosslinker density
@@ -225,13 +221,8 @@ link_intersect_flag=true
 actin_pos_str=0,0,0:1,2,3.141
 ```
 
-### Contribution guidelines ###
-
-* None yet, I should make some!
-* Code review
-* Other guidelines
 
 ### Who do I talk to? ###
 
-* Simon Freedman
-* GCIS E126
+* Shiladitya Banerjee
+* shiladitya.banerjee@ucl.ac.uk
