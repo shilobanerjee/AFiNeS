@@ -30,10 +30,7 @@ Load boost library
 ```
 module load Libs/Boost/1.59.0
 ```
-On a Mac, you can install Boost via MacPorts, with the command
-```
-sudo port install boost
-```
+
 
 ### QUICKSTART GUIDE ###
 
