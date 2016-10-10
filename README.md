@@ -51,6 +51,13 @@ sudo port install boost
     ```
     > mkdir bin
     ```    
+    
+* Link to boost library
+
+    * Run the command:
+         ```
+         > export BOOST_ROOT=/gpfs/apps/hpc/Libs/Boost/1.59.0/lib
+         ```
 * If you don't already have an executable, run the command: 
     ```
     > make [clean] [tar] network 
