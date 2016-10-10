@@ -17,9 +17,16 @@ Aaron Dinner (University of Chicago)
 ### System Requirements ###
 Minimally, this system requires gcc+11 and boost C++ library
 
+Login to Grace (Yale HPC cluster)
+
+To load gcc, type the command
+
 ```
 module load Langs/GCC/5.2.0 
 ```
+
+Load boost library
+
 ```
 module load Libs/Boost/1.59.0
 ```
