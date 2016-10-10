@@ -4,6 +4,12 @@
 
 * Coarse-grained model of actomyosin networks
 
+Developed by:
+Simon Freedman (University of Chicago)
+Shiladitya Banerjee (University College London)
+Glen Hocky (University of Chicago)
+Aaron Dinner (University of Chicago)
+
 ### System Requirements ###
 Minimally, this system requires gcc+11 and boost C++ library
 
