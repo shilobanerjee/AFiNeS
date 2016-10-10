@@ -61,7 +61,7 @@ module load Libs/Boost/1.59.0
     ```
     > make [clean] network 
     ```
-    * [clean] will delete the old executable
+    * [clean] will delete the old executable. This is optional.
 
 * You should now have an executable file called bin/afines. NOTE: you only need to recreate this file if you edit the source
   code.
