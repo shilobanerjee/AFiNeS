@@ -7,6 +7,12 @@
 ### System Requirements ###
 Minimally, this system requires gcc+11 and boost C++ library
 
+```
+module load Langs/GCC/5.2.0 
+```
+```
+module load Libs/Boost/1.59.0
+```
 On a Mac, you can install Boost via MacPorts, with the command
 ```
 sudo port install boost
@@ -14,7 +20,7 @@ sudo port install boost
 
 ### QUICKSTART GUIDE ###
 
-* If you don't already have a bin directory, create one with:
+* Create a bin directory with:
     ```
     > mkdir bin
     ```    
