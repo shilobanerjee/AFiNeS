@@ -45,7 +45,7 @@ module load Libs/Boost/1.59.0
          ```
          > export BOOST_ROOT=/gpfs/apps/hpc/Libs/Boost/1.59.0/lib
          ```
-    * Open 'makefile' using a text editor (e.g. emacs). Add `-I gpfs/apps/hpc/Libs/Boost/1.59.0/include` to the line that begins `INC :=` in the makefile.
+    * Open 'makefile' using a text editor (e.g. emacs). Add `-I gpfs/apps/hpc/Libs/Boost/1.59.0/include` to the line that begins with `INC :=` in the makefile.
          
 * To create an executable, run the command: 
     ```
