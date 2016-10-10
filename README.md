@@ -58,27 +58,13 @@ sudo port install boost
          ```
          > export BOOST_ROOT=/gpfs/apps/hpc/Libs/Boost/1.59.0/lib
          ```
-* If you don't already have an executable, run the command: 
+    * Open 'makefile' using a text editor (e.g. emacs). Add `-I gpfs/apps/hpc/Libs/Boost/1.59.0/include` to the line that begins `INC :=` in the makefile.
+         
+* To create an executable, run the command: 
     ```
-    > make [clean] [tar] network 
+    > make [clean] network 
     ```
     * [clean] will delete the old executable
-    * [tar] will generate the file tars/amxbd.tar.gz
-    * IF this doesn't work, then there's probably a dependency or linker issue. Try each of the following solutions in the order prescribed, and attempt to compile in between. 
-        1. Make sure you have Boost installed 
-        2. Find the folder with the "*boost*.dylib" or "*boost*.a" folders; when I installed Boost using MacPorts, it was `/opt/local/lib/` . Run the command:
-
-                 export BOOST_ROOT=<my boost folder>
-
-              With the Macports installation, <my boost folder>=/opt/local/lib . 
-
-        3. Within BOOST_ROOT, identify if the library folders have a suffix, such as "-mt" or "-d" (e.g., the program-options library on my Mac is named "libboost_program_options-mt.dylib", instead of "libbbost_program_options.dylib"). If so, run the command:
-            
-                export BOOST_SUFFIX=<my boost suffix>
-            
-             With the Macports installation, <my boost suffix>=-mt
-
-        4. Find the folder with the boost/*.h files; with MacPorts installation, it was `/opt/local/include/`. Add `-I <myincludefolder>` to the line that begins `INC :=` in the makefile.
 
 * You should now have an executable file called bin/afines. NOTE: you only need to recreate this file if you edit the source
   code.
