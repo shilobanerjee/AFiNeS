@@ -37,6 +37,16 @@ sudo port install boost
 
 ### QUICKSTART GUIDE ###
 
+* Download AFiNeS repository
+  ```
+  > git clone https://github.com/shilobanerjee/AFiNeS.git
+  ```
+
+* Change to AFiNeS directory
+  ```
+  > cd AFiNeS
+  ```
+ 
 * Create a bin directory with:
     ```
     > mkdir bin
