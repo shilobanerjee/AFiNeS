@@ -4,22 +4,12 @@
 
 * Coarse-grained model of actomyosin networks
 
-Developers:
-
-Simon Freedman (University of Chicago)
-
-Shiladitya Banerjee (University College London)
-
-Glen Hocky (University of Chicago)
-
-Aaron Dinner (University of Chicago)
-
 ### System Requirements ###
 Minimally, this system requires gcc+11 and boost C++ library
 
 Login to Grace (Yale HPC cluster)
 
-To load gcc, type the command
+To load gcc, run the command
 
 ```
 module load Langs/GCC/5.2.0 
@@ -249,3 +239,12 @@ actin_pos_str=0,0,0:1,2,3.141
 
 * Shiladitya Banerjee
 * shiladitya.banerjee@ucl.ac.uk
+* Developers:
+
+  Simon Freedman (University of Chicago)
+
+  Shiladitya Banerjee (University College London)
+
+  Glen Hocky (University of Chicago)
+
+  Aaron Dinner (University of Chicago)
