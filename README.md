@@ -4,7 +4,8 @@
 
 * Coarse-grained model of actomyosin networks
 
-Developed by:
+Developers:
+
 Simon Freedman (University of Chicago)
 
 Shiladitya Banerjee (University College London)
