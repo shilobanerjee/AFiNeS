@@ -7,7 +7,7 @@
 ### System Requirements ###
 Minimally, this system requires gcc+11 and boost C++ library
 
-Login to Grace (Yale HPC cluster)
+Login to Grace 
 
 To load gcc, run the command
 
@@ -235,11 +235,9 @@ actin_pos_str=0,0,0:1,2,3.141
 ```
 
 
-### Who do I talk to? ###
+### Developers ###
 
-* Shiladitya Banerjee
-* shiladitya.banerjee@ucl.ac.uk
-* Developers:
+
 
   Simon Freedman (University of Chicago)
 
